@@ -1,0 +1,42 @@
+.home-container{
+    height: 100%;
+    width: 100%;
+    margin-top: -1.4rem;
+    margin-left: -.5rem;
+
+}
+
+
+.home-content{
+    background-color: darkolivegreen;
+    width: 100vw;
+    height: 81vh;
+}
+
+
+.home-section1{
+   background-color: rgb(39, 209, 152);
+   height: 15vh;
+
+}
+
+
+.home-section2{
+    background-color: rgb(242, 255, 127);
+    height: 15vh;
+ 
+ }
+
+
+ .home-section3{
+    background-color: rgb(138, 138, 187);
+    height: 15vh;
+ 
+ }
+
+
+ .home-section4{
+    background-color: rgb(238, 137, 78);
+    height: 15vh;
+ 
+ }

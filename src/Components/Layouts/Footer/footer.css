@@ -1,0 +1,13 @@
+.footer-container{
+    height: 10vh;
+    width: 100vw;
+    margin-left: -.5rem;
+    margin-top: -1.4rem;
+}
+
+.footer-content{
+    background-color: coral;
+    height: 14vh;
+
+
+}
