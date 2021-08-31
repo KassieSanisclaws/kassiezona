@@ -1,42 +1,77 @@
 .home-container{
     height: 100%;
     width: 100%;
-    margin-top: -1.4rem;
     margin-left: -.5rem;
 
 }
 
 
 .home-content{
-    background-color: darkolivegreen;
+    /* background-color: darkolivegreen; */
+    background-image: url(../../../images/pictures/background_img_green28.png);
+    background-repeat: none;
+    background-size: cover;
     width: 100vw;
-    height: 81vh;
+    height: 100vh;
+
+
+
 }
 
 
+.home-grid-layout{
+   display: grid;
+   grid-gap: 2rem;
+  /* grid-template-columns: repeat(1, 1fr);
+  grid-gap: 3rem; */
+   width: 100%;
+  justify-items: center;
+
+}
+
+
+
 .home-section1{
-   background-color: rgb(39, 209, 152);
+   margin-top: 1%;
+   background-color: rgba(39, 209, 152, 0.267);
    height: 15vh;
+   width: 100%;
+   grid-column: 1/4;
+   grid-row: 1;
+   
 
 }
 
 
 .home-section2{
-    background-color: rgb(242, 255, 127);
-    height: 15vh;
+    
+    background-color: rgba(242, 255, 127, 0.445);
+    height: 55vh;
+    width: 25vw;
+    grid-column: 1;
+    grid-row: 2 / 5;
+   
+
  
  }
 
 
  .home-section3{
-    background-color: rgb(138, 138, 187);
-    height: 15vh;
- 
+    background-color: rgba(138, 138, 187, 0.493);
+    height: 55vh;
+    width: 25vw;
+    grid-column: 3;
+    grid-row: 2 / 5;
+  
+
  }
 
 
  .home-section4{
-    background-color: rgb(238, 137, 78);
+    background-color: rgba(238, 137, 78, 0.315);
     height: 15vh;
+    width: 100%;
+    grid-column: 1 / 4;
+    grid-row: 5 / 7;
  
  }

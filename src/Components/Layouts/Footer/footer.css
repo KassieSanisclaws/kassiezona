@@ -6,7 +6,8 @@
 }
 
 .footer-content{
-    background-color: coral;
+    /* background-color: rgb(0, 255, 128); */
+    background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199));
     height: 14vh;
 
 

@@ -1,0 +1,129 @@
+.login-body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    
+}
+
+
+.login-container{
+     width: 100vw;
+     background-image: url(../../../images/pictures/background_img_green33.png);
+     background-repeat: none;
+     background-size: cover;
+     opacity: .8;
+     /* background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199)); */
+     display: flex;
+     height: 100vh;
+     margin-left: -.5%;
+    
+
+}
+
+.col-md-6  {
+    /* margin-top: 4rem; */
+
+}
+
+.offset-xl-1{
+   margin-top: 1.4rem;
+   /* background-color: slateblue; */
+   margin-left: 35%;
+   margin-top: 6rem;
+   width: 30vw;
+   height: 80vh;
+  
+}
+
+.col-xl-5{
+
+
+
+}
+
+
+.login-form-section{
+      /* background-color:springgreen;
+      width: 50vw;
+      height: 50vh; */
+     
+   
+}
+
+/* this is the card background glass effect look. */
+.card-form{
+      /* background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199));
+      border-radius: 1rem;
+      height: 80vh;
+      width: 100%; */
+
+
+}
+
+
+.login-form-section form{
+   background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199));
+   width: 25vw;
+   height: 70vh;
+   border-radius: 9px;
+   padding: 2.5rem;
+   justify-content: center;
+   border-style: double;
+   /* background-color: rgb(255, 224, 240); */
+
+}
+
+.form-card-field{
+    width: 15vw;
+    height: 1px;
+    border-radius: 9px;
+    margin-left: 10%;
+    /* margin-top: 1rem; */
+    padding: 2.5rem;  
+    border-style: double;
+    background-color: rgba(20, 192, 29, 0.37);
+    justify-content: center;
+
+}
+
+
+.form-card-field input{
+    width: 110% !important;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 400;
+    resize: none;
+    color: rgb(0, 0, 0);
+    border: none;
+    background: none;
+    border-bottom: 2px solid black;
+    outline: none;
+    text-align: center;
+    margin-left: -15px;
+
+}
+
+.login-form-section button{
+    margin-left: 4rem;
+    margin-top: 3rem;
+    font-size: 25px;
+    height: 2rem;
+    width: auto;  
+
+
+}
+
+.intro-header{
+  /* height: unset !important; */
+
+}
+
+.intro-2{
+    /* background: url("../../../../assets/images/Salon_image-28.jpg")no-repeat center center;
+    background-size: cover; */
+
+}
+
+.view{
+    /* height: auto; */
+}

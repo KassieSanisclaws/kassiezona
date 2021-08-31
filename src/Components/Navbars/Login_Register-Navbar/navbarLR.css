@@ -1,0 +1,26 @@
+.navbarlr-body{
+    height: 100%;
+    width: 100%;
+    margin-top: -1.2%;
+
+}
+
+
+.navbarlr-container{
+    /* background-color: springgreen; */
+    background: linear-gradient(rgba(20, 206, 76, 0.527), rgba(10, 182, 76, 0.199));
+    height: 8vh;
+    width: 100vw;
+    margin-top: -.5%;
+    margin-left: -.5%;
+}
+
+
+/* .navbarlr-section{
+    background-color: seagreen;
+    width: 50px;
+    height: 20px;
+
+
+
+} */
