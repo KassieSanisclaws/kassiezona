@@ -18,7 +18,16 @@
      margin-left: -.5%;
     
 
+     
 }
+
+.register-return-link{
+    color: blueviolet;
+    text-decoration: none;
+    font-size: 20px;
+
+}
+
 
 .col-md-6  {
     /* margin-top: 4rem; */

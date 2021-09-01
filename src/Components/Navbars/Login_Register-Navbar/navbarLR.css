@@ -16,11 +16,12 @@
 }
 
 
-/* .navbarlr-section{
-    background-color: seagreen;
-    width: 50px;
-    height: 20px;
+.navbarlr-section h1{
+    background-color: rgba(46, 139, 86, 0.767);
+    text-align: center;
+    font-family:  Lucida 'HandWriting';
+    font-style: italic;
+    text-decoration: double underline;
+    color: rgb(70, 67, 70);
 
-
-
-} */
+}

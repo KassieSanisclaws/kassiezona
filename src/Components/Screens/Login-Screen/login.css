@@ -35,11 +35,7 @@
   
 }
 
-.col-xl-5{
 
-
-
-}
 
 
 .login-form-section{
@@ -111,6 +107,13 @@
     width: auto;  
 
 
+}
+
+
+.login-return-link{
+    color: blueviolet;
+    font-size: 20px;
+    
 }
 
 .intro-header{

@@ -39,6 +39,24 @@
    grid-column: 1/4;
    grid-row: 1;
    
+}
+
+.home-section1-images-container{
+   /* grid-template-columns: repeat(4, 1fr); */
+   display: grid;
+   grid-template-columns: repeat(5, 1fr);
+   grid-gap: 1rem;
+   overflow: hidden;
+   /* overflow-x: scroll; */
+  
+}
+
+.home-section1-images-card{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   background-color: bisque;
+   justify-self: center;
 
 }
 
@@ -50,10 +68,40 @@
     width: 25vw;
     grid-column: 1;
     grid-row: 2 / 5;
-   
-
  
  }
+
+ .home-section2-header{
+    background-color: brown;
+    
+ }
+
+ .home-section2-header h2{
+    color: aliceblue;
+    /* margin-top: -.1%; */
+ }
+
+ .home-section2-container{
+     overflow: hidden;
+     overflow-y: scroll;
+     height: 400px;
+     cursor: pointer;
+     
+ }
+
+ .home-section2-container .lorem1:hover{
+    /* transition: 3s ease-in; */
+    color: aquamarine;
+ }
+
+ .home-section2-container .lorem2:hover{
+   /* transition: 3s ease-in; */
+   color:violet;
+}
+ /* .lorem1:hover{
+    color: violet;
+
+ } */
 
 
  .home-section3{
@@ -63,6 +111,22 @@
     grid-column: 3;
     grid-row: 2 / 5;
   
+ }
+
+ .home-section3-header{
+    background-color: yellowgreen;
+
+ }
+
+ .home-section3-header h2{
+     color: aliceblue;
+     
+ }
+
+ .home-section3-container{
+   overflow: hidden;
+   overflow-y: scroll;
+   height: 400px;
 
  }
 
