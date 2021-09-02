@@ -46,7 +46,7 @@
    display: grid;
    grid-template-columns: repeat(5, 1fr);
    grid-gap: 1rem;
-   overflow: hidden;
+   /* overflow: hidden; */
    /* overflow-x: scroll; */
   
 }
@@ -57,23 +57,256 @@
    width: 10vw;
    background-color: bisque;
    justify-self: center;
+   border-radius: 30px;
+  
+}
 
+.home-section1-images-card:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;
+}
+
+.home-section1-images-card1{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/00RiserGundam_GN-0000.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card1:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+
+.home-section1-images-card2{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/DestinyGundam_ZGMF-X42S.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card2:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+.home-section1-images-card3{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/StrikeFreedomGundam_ZGMF-X20A.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card3:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+.home-section1-images-card4{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/UnicornGundam_03Phenex.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card4:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+.home-section1-images-card5{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/ExiaDarkMatterGundam_HighGrade-013.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card5:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+.home-section1-images-card6{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/EpyonGundam_EW\ .png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card6:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+.home-section1-images-card7{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/BarbatosLupusRexDragonKingGundam_ASW-G-08.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card7:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+.home-section1-images-card8{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/BarbatosLupusRexGundam_HG-03.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card8:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+.home-section1-images-card9{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/ShinMushaGundam_MG-582119.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card9:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
+}
+
+.home-section1-images-card10{
+   margin-top: 2%;
+   height: 13.2vh;
+   width: 10vw;
+   /* background-color: bisque; */
+   justify-self: center;
+   border-radius: 30px; 
+   background-image: url("../../../images/cards-images/JusticeGundam_ZAFT.png");
+   background-position: 40% 30%;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.home-section1-images-card10:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 1px 1px 1px 4px black;
+   cursor: pointer;  
 }
 
 
 .home-section2{
-    
-    background-color: rgba(242, 255, 127, 0.445);
+    background-color: rgba(127, 255, 170, 0.192);
     height: 55vh;
-    width: 25vw;
+    width: 28vw;
     grid-column: 1;
     grid-row: 2 / 5;
- 
+    /* border: 3px solid black; */
+    border-radius: 13px;
+    box-shadow: 1px 1px 1px 4px black; 
  }
 
+.home-section2:hover{
+   transition: 0.3s all;
+   transform: scale(1.045);
+}
+
  .home-section2-header{
-    background-color: brown;
-    
+    background-color: rgba(42, 165, 104, 0.705);
+    display: block;
+    box-shadow: 1px 1px 1px 4px black;
+    text-align: center;
+ }
+
+ .home-section2-header:hover{
+    background-color: darkolivegreen;
+    /* cursor: pointer; */
  }
 
  .home-section2-header h2{
@@ -86,36 +319,103 @@
      overflow-y: scroll;
      height: 400px;
      cursor: pointer;
-     
  }
 
+/* this it the hover effect of the text within the section containers ul li ordered. */
  .home-section2-container .lorem1:hover{
     /* transition: 3s ease-in; */
     color: aquamarine;
+    transition: 0.3s all;
+    transform: scale(1.045);
+    box-sizing: border-box;
+    box-shadow: 2px 2px 2px 2px black;
  }
 
  .home-section2-container .lorem2:hover{
    /* transition: 3s ease-in; */
    color:violet;
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 2px 2px 2px 2px black;
 }
- /* .lorem1:hover{
-    color: violet;
 
- } */
+
+.home-section2-container .lorem3:hover{
+   color: cornflowerblue;
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 2px 2px 2px 2px black;
+}
+
+
+.home-section2-container .lorem4:hover{
+   color:springgreen;
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 2px 2px 2px 2px black;
+}
+
+.home-section3-container .lorem5:hover{
+   color: crimson;
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 2px 2px 2px 2px black;
+}
+
+.home-section3-container .lorem6:hover{
+   color: darkgreen;
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 2px 2px 2px 2px black;
+}
+
+.home-section3-container .lorem7:hover{
+   color: teal;
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 2px 2px 2px 2px black;
+}
+
+.home-section3-container .lorem8:hover{
+   color: thistle;
+   transition: 0.3s all;
+   transform: scale(1.045);
+   box-sizing: border-box;
+   box-shadow: 2px 2px 2px 2px black;
+}
 
 
  .home-section3{
-    background-color: rgba(138, 138, 187, 0.493);
+    background-color: rgba(138, 138, 187, 0.233);
     height: 55vh;
     width: 25vw;
     grid-column: 3;
     grid-row: 2 / 5;
-  
+    /* border: 3px solid black; */
+    border-radius: 13px;
+    box-shadow: 1px 1px 1px 3px black;
+ }
+
+
+ .home-section3:hover{
+    transition: 0.3s all;
+    transform: scale(1.045);
  }
 
  .home-section3-header{
-    background-color: yellowgreen;
+   background-color: rgba(127, 255, 170, 0.192);
+   text-align: center;
+   box-shadow: 1px 1px 1px 3px black;
+ }
 
+ .home-section3-header:hover{
+    background-color: darkolivegreen;
  }
 
  .home-section3-header h2{
@@ -127,12 +427,12 @@
    overflow: hidden;
    overflow-y: scroll;
    height: 400px;
-
+   cursor: pointer;
  }
 
 
  .home-section4{
-    background-color: rgba(238, 137, 78, 0.315);
+   background-color: rgba(39, 209, 152, 0.267);
     height: 15vh;
     width: 100%;
     grid-column: 1 / 4;
