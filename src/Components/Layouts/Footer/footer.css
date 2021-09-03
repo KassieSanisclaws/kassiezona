@@ -19,69 +19,264 @@
 .footer-banner{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+    margin-left: 33.5%;
+
 }
 
 .icon1{
-    background-color: blueviolet;
-    height: 20px;
-    width: 20px;
-    
+   margin-left: 75%;
+   margin-top: 6%;
 }
+
+.icon2{
+    margin-left: -4%;
+    margin-top: 6%;
+}
+
+.icon3{
+    margin-left: -84%;
+    margin-top: 6%;
+}
+
+
+.icon4{
+  margin-left: 25%; 
+}
+
+
+.icon4:hover{
+    background-color: aliceblue;
+    transition: 0.3s all;
+    transform: scale(1.045);
+}
+
+
+.icon5{
+    margin-left: 25%; 
+}
+
+.icon5:hover{
+    background-color: aliceblue;
+    transition: 0.3s all;
+    transform: scale(1.045);
+}
+
+
+.icon6{
+    margin-left: 25%; 
+}
+
+
+.icon6:hover{
+    background-color: aliceblue;
+    transition: 0.3s all;
+    transform: scale(1.045);
+}
+
+
+.icon7{
+    margin-left: 25%; 
+}
+
+.icon7:hover{
+    background-color: aliceblue;
+    transition: 0.3s all;
+    transform: scale(1.045);
+}
+
+.icon8{
+    margin-left: 25%; 
+}
+
+.icon8:hover{
+    background-color: aliceblue;
+    transition: 0.3s all;
+    transform: scale(1.045);
+}
+
 
 .footer-content-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 1rem;
     justify-items: center;
+    margin-top: 4%;
 }
 
 .footer-content-container-card1{
     background: linear-gradient(rgba(20, 206, 76, 0.295), rgba(10, 182, 76, 0.062));
-    border: 2px solid black;
+    /* border: 2px solid black; */
     border-radius: 25px;
     width: 25vw;
     height: 30vh;
 }
 
-.footer-content-container-card1 h2{
-    margin-left: 25%;
+.card1-about-kassiezona{
+    background-color: rgba(127, 255, 212, 0.267);
+    height: 18vh;
+    width: 22vw;
+    margin-left: 6.5%;
+    border-radius: 15px;
 }
 
-.footer-content-container-card1 ul{
-    margin-left: 37%;
+.card1-about-kassiezona:hover{
+    transition: 0.3s all;
+    transform: scale(1.045);
+    background: linear-gradient(rgba(20, 206, 76, 0.24), rgba(10, 182, 76, 0.253));
 }
+
+.card1-about-kassiezona p{
+    font-size: 100%;
+    text-align: center;
+}
+
+
+.footer-content-container-card1 h2{
+    margin-left: 43%;
+    text-decoration: double underline;
+    /* color: rgba(85, 21, 146, 0.87); */
+    color: blueviolet;
+    font-style: italic;
+    font-weight: bolder;
+    
+}
+
+
 
 .footer-content-container-card2{
     background: linear-gradient(rgba(20, 206, 76, 0.295), rgba(10, 182, 76, 0.062));
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 25vw;
     height: 30vh;
     border-radius: 25px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    align-items: center;
 }
 
-.footer-content-container-card2 h2{
-    margin-left: 40%;
+.card2-h2{
+    color: blueviolet;
+    margin-top: -11rem;
+    margin-left: 10vw;
+    text-decoration: double underline;
+    font-weight: bolder;
+    font-style: italic;
+    
 }
 
-.footer-content-container-card2 ul{
-    margin-left: 37%;
+
+.card2-carousel{
+    background-color: rgba(127, 255, 212, 0.555);
+    margin-bottom: -5vh;
+    height: 21vh;
+    width: 22vw;
+    margin-left: -124%;
+    overflow-x: scroll;
+    border-radius: 2%;
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    overflow-y: hidden;
+}
+
+.card2-carousel:hover{
+    cursor: pointer;
+    transition: 0.3s all;
+    transform: scale(1.025);
 }
 
 .footer-content-container-card3{
     background: linear-gradient(rgba(20, 206, 76, 0.295), rgba(10, 182, 76, 0.062));
-    border: 2px solid black;
+    /* border: 2px solid black; */
     width: 25vw;
     height: 30vh;
     border-radius: 24px;
 }
 
+.carousel-card1{
+    /* background-color: green; */
+    background-image: url("../../../images/cards-images/WingZeroGundam_EW.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 90% 30%;
+    height: 19vh;
+    /* border: 2px solid black; */
+    box-shadow: 2px 2px 2px 4px black;
+
+}
+
+.carousel-card1:hover{
+     transition: 0.3s all;
+     transform: scale(1.055);
+     /* box-shadow: 1px 1px 1px 3px black; */
+}
+
+
+.carousel-card2{
+    /* background-color: green;
+    border: 2px solid black; */
+    background-image: url("../../../images/cards-images/FazzVerKaGundam_MasterGrade-5058880.png");
+    background-repeat: no-repeat;
+    background-position: 65% 30%;
+    background-size: cover;
+    box-shadow: 2px 2px 2px 4px black;
+}
+
+.carousel-card2:hover{
+    transition: 0.3s all;
+    transform: scale(1.065);
+
+}
+
+
+.carousel-card3{
+    /* background-color: green;
+    border: 2px solid black; */
+    background-image: url("../../../images/cards-images/DuelGundam_AssaultShroud-MasterGrade.png");
+    background-size: cover;
+    background-position: 70% 30%;
+    background-repeat: no-repeat;
+    box-shadow: 2px 2px 2px 4px black;
+
+}
+
+.carousel-card3:hover{
+    transition: 0.3s all;
+    transform: scale(1.075);
+
+}
+
+.carousel-card4{
+    /* background-color: green;
+    border: 2px solid black; */
+    background-image: url("../../../images/cards-images/FreedomGundam_ZGMF-X10A-ZAFT.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 30%;
+    box-shadow: 2px 2px 2px 4px black;
+
+}
+
+
+.carousel-card4:hover{
+    transition: 0.3s all;
+    transform: scale(1.085);
+
+}
+
+
+
 .footer-content-container-card3 h2{
     margin-left: 40%;
 }
 
-.footer-content-container-card3 ul{
-    margin-left: 37%;
+.footer-content-container-card3 a{
+    margin-left: 3%;
+    
 }
+
 
 .footer-closing-content{
     border:  1px solid black;
