@@ -11,7 +11,7 @@ const initialState = {
     nameError: "",
     emailError: "",
     passswordError: "",
-    confirmPasswordError: "",
+    confirmPasswordError: "",  
     
 };
 
@@ -47,7 +47,7 @@ export default class RegisterValidation extends React.Component{
     
     }
 
-    if(!this.state.email){
+    if(!this.state.email){   
        
     }
 

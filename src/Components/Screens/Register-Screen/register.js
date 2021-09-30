@@ -17,7 +17,7 @@ export default function Register() {
 
                          <div className="col-md-6 col-xl-5 offset-xl-1">
                              <div className="register-form-section">
-                                <Link to="/" className="register-return-link">Return Home</Link>
+                                <Link to="/" className="register-return-link">Return Home!</Link>
                                     <div className="card-form">
                                        <RegisterValidation /> 
                                     </div>

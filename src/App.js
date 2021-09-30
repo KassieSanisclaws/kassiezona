@@ -8,7 +8,7 @@ import Register from './Components/Screens/Register-Screen/register';
 
 function App() {
   return (
-    <BrowserRouter basename="Kassiezona">
+    <BrowserRouter basename="Kassiezona!">
     <div className="App-Section">
             
       </div>

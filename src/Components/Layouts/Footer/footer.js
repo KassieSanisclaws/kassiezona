@@ -29,7 +29,7 @@ export default function footer() {
                                        <h2>About:</h2>
                                       <div className="card1-about-kassiezona">
                                           <p> KassieZona, <br/>
-                                              An Eccommerce sci-fi exploration of the community of Gundam model grades enthusiest collectors.
+                                              An Eccommerce Sci-Fi exploration of the community of Gundam model grades enthusiest collectors.
                                               Our site brings scalable ac tion models you enjoyede growing up and love, from your favourite Gundam
                                               series to Gundam movies/arks.
                                               We also have a chat community server of collectors and embrace the Zaft Mobile Wars!.
